@@ -1,0 +1,9 @@
+.register-bg{
+    background-image:url('../project/view3.jpeg') ;
+    background-size: cover;
+    height:100vh;
+    background-position:center bottom ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}

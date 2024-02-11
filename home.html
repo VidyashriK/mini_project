@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream Parlour</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<style>
+    .home{
+    background-image: url('home.jpg');
+    background-size: contain;
+    height:100vh;
+   background-size: cover;
+
+}
+.services-card{
+    box-shadow:1px 1px 1px black;
+    border-radius: 1px;
+    height:200px;
+    text-align: center;
+    margin:20px;
+    padding:5px;
+}
+.m{
+    position:absolute;
+    top:90%;
+}
+</style>
+<body>
+    <nav class="navbar  navbar-light bg -warning">
+        <button class="navbar-toggler" data-target="#navbartoggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon">
+        </button>
+        <div class="collapse navbar-collapse" id="navbartoggler">
+                                                        
+            <ul class="navbar-nav mr-auto">
+                <li class="nav item active">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav item">
+                    <a href="fooditem.html" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav item">
+                    <a href="menucard.html" class="nav-link">Menu card</a>
+                </li>
+                <li class="nav item">
+                    <a href="cheffsandwaiters.html" class="nav-link">Chefs and Waiters</a>
+                </li>
+                <li class="nav item">
+                    <a href="addstaff.html" class="nav-link">Add Staff</a>
+                </li>
+            </ul>
+            <a href="login.html"class="btn btn-outline-success">Logout</a>
+        </div>
+    </nav>
+    <div class="container-fluid home">
+        <div class="row pt-4">
+            <div class="col-xl-8 offset-xl-4">
+                <h1>Welcome to <span class="text-warning">Icecream Parlour</span></h1>
+                <h5>“You know it's a cool day when you have some ice cream”</h5>
+                <div class="mt-8">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

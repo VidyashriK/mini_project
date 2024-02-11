@@ -1,0 +1,23 @@
+body{
+    background-image: url('../project/food.jpg');
+    background-size: contain;
+    height:100vh;
+    display: flex;
+    align-items: center;
+}
+
+.lux{
+    color:#ff1491e8;
+    align-items: center;
+}
+.start-link{
+    font-size: 3em;
+}
+.get-started-container{
+    text-align: center;
+}
+.get-started-container >h3{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

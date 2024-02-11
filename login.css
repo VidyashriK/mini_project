@@ -1,0 +1,71 @@
+body{
+    background-image: url('../project/bg3.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+   color:  lightsteelblue;
+}
+.account{
+    color: lightsteelblue;
+}
+ .main{
+    text-align:center;
+    margin: 50px 300px 300px 350px;
+    padding: 10px;
+    border: 1px #ff4800;
+    border-radius: 10px;
+ }
+.email{
+    border: 1px solid;
+    border-radius: 7px;
+    padding:7px;
+    box-shadow: 1px,1px,1px,1px purple;
+    margin:6px;
+}
+.date{
+    border: 1px solid;:rgb(212, 172, 207);
+    margin: 6px;
+    padding: 10px;
+    border: 1px #ff4800;
+    border-radius: 10px;
+} 
+
+.name{
+    border: 1px solid;
+    border-radius: 7px;
+    padding:7px;
+    box-shadow: 1px,1px,1px,1px purple;
+    margin:6px;
+    border-radius: 7px;
+    padding:7px;
+    box-shadow: 1px,1px,1px,1px palegreen;
+    margin:6px;
+}
+.pwd{
+    border: 1px solid;
+    border-radius: 7px;
+    padding:7px;
+    box-shadow: 1px,1px,1px,1px #ff00ff;
+    margin:6px;
+}
+.add{
+    border: 1px solid;
+    border-radius: 7px;
+    padding:7px;
+    box-shadow: 1px,1px,1px,1px peachpuff;
+    margin:6px;
+}
+.submit{
+        border:1px solid;
+        padding:5px 63px;
+        background-color:yellow;
+        color:#ff0000;
+        border-radius: 9px;
+        box-shadow: 1px 1px 1px 1px #001380;
+        margin:6px;
+    }
+    .submit:hover{
+        background-color: #daa520;
+        border:1px gold;
+    }
